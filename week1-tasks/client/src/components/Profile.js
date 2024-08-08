@@ -118,8 +118,10 @@ const Profile = () => {
                         </div>
                         <button type="submit">Update Profile</button>
                     </form>
-                    <button onClick={handleLogout}>Logout</button>
-                    <button onClick={handleDelete}>Delete Profile</button>
+                    <div className='crud'>
+                    <button type="submit" onClick={handleLogout}>Logout</button>
+                    <button type="submit" onClick={handleDelete}>Delete Profile</button>
+                    </div>
                 </div>
             ) : (
                 <p>Loading...</p>

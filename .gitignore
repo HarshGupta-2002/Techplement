@@ -1,6 +1,0 @@
-# Ignore node_modules directories
-week1-tasks/client/node_modules/
-week1-tasks/server/node_modules/
-
-# Ignore environment configuration file
-week1-tasks/server/.env
