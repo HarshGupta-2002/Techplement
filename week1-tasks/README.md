@@ -11,6 +11,10 @@ Implemented functionalities include
 - password hashing for security using JWT (Javascript Web Tokens)
 - Responsive to every screen
 
+## Demo
+
+https://youtu.be/TEaB7sHy2EY
+
 ## TechStack
 
 MERN
