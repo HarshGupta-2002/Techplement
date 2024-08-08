@@ -12,22 +12,6 @@ const Login = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
 
-    // const handleLogin = async (e) => {
-    //     e.preventDefault();
-    //     try {
-    //         const response = await axios.post('http://localhost:5000/api/users/login', {
-    //             username,
-    //             password,
-    //         });
-    //         localStorage.setItem('userInfo', JSON.stringify(response.data));
-    //         navigate('/profile');
-    //     } catch (error) {
-    //         setError('Invalid username or password');
-    //         // console.error('Error logging in:', error);
-    //         console.error('Error response:', error.response);
-    //     }
-    // };
-
     const handleLogin = async (e) => {
         e.preventDefault();
         try {

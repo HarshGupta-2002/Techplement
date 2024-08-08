@@ -1,7 +1,5 @@
-// import React from 'react';
-import WatermarkImage from '../Watermark.svg'; // Import the SVG file
 import '../App.scss';
-
+import WatermarkImage from '../Watermark.svg'; // Import the SVG file
 
 const Watermark = () => {
     return (
