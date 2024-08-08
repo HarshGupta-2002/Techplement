@@ -59,8 +59,8 @@ const loginUser = async (req, res) => {
                 token: generateToken(user._id),
             });
         } else {
-            // res.status(401).json({ message: 'Invalid username or password' });
-            console.log("testing");
+            res.status(401).json({ message: 'Invalid username or password' });
+            // console.log("testing");
         }
     } catch (error) {
         console.error(error);
