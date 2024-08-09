@@ -45,8 +45,8 @@ Before you begin, make sure you have the following installed on your system:
      cd Techplement/week1-tasks
      ```
 
-2. **Backend Setup**
-   - Navigate to the backend directory:
+2. **Server Setup**
+   - Navigate to the server directory:
      ```bash
      cd server
      ```
@@ -55,7 +55,7 @@ Before you begin, make sure you have the following installed on your system:
      npm install
      ```
    - Set up environment variables:
-     - Create a `.env` file in the `backend` directory.
+     - Create a `.env` file in the `server` directory.
      - Add the following environment variables:
        ```env
        PORT=5000
@@ -64,8 +64,8 @@ Before you begin, make sure you have the following installed on your system:
        ```
      - Replace `your_mongodb_connection_string` and `your_jwt_secret` with your actual MongoDB connection string and JWT secret.
 
-3. **Frontend Setup**
-   - Navigate to the frontend directory:
+3. **Client Setup**
+   - Navigate to the client directory:
      ```bash
      cd ../client
      ```
@@ -73,8 +73,8 @@ Before you begin, make sure you have the following installed on your system:
      ```bash
      npm install
      ```
-   - (Optional) Set up environment variables for the frontend:
-     - If the frontend requires any environment variables, create a `.env` file in the `frontend` directory and add them accordingly.
+   - (Optional) Set up environment variables for the client:
+     - If the frontend requires any environment variables, create a `.env` file in the `client` directory and add them accordingly.
 
 ## Author
 
