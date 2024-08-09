@@ -48,7 +48,7 @@ Before you begin, make sure you have the following installed on your system:
 2. **Backend Setup**
    - Navigate to the backend directory:
      ```bash
-     cd backend
+     cd server
      ```
    - Install the required Node.js dependencies:
      ```bash
@@ -67,7 +67,7 @@ Before you begin, make sure you have the following installed on your system:
 3. **Frontend Setup**
    - Navigate to the frontend directory:
      ```bash
-     cd ../frontend
+     cd ../client
      ```
    - Install the required Node.js dependencies:
      ```bash
