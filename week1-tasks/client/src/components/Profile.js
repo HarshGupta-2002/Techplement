@@ -26,7 +26,7 @@ const Profile = () => {
                         Authorization: `Bearer ${userInfo.token}`,
                     },
                 };
-                const { data } = await axios.get('${process.env.REACT_APP_API_URL}/api/users/profile', config);
+                const { data } = await axios.get(`${process.env.REACT_APP_API_URL}/api/users/profile`, config);
                 setUser(data);
             } catch (error) {
                 console.error('Error fetching user data', error);
@@ -52,7 +52,7 @@ const Profile = () => {
                     Authorization: `Bearer ${userInfo.token}`,
                 },
             };
-            const { data } = await axios.put('${process.env.REACT_APP_API_URL}/api/users/profile', { ...user, password }, config);
+            const { data } = await axios.put(`${process.env.REACT_APP_API_URL}/api/users/profile`, { ...user, password }, config);
             setUser(data);
             alert('Profile updated successfully');
         } catch (error) {
@@ -69,7 +69,7 @@ const Profile = () => {
                         Authorization: `Bearer ${userInfo.token}`,
                     },
                 };
-                await axios.delete('${process.env.REACT_APP_API_URL}/api/users/profile', config);
+                await axios.delete(`${process.env.REACT_APP_API_URL}/api/users/profile`, config);
                 localStorage.removeItem('userInfo');
                 navigate('/');
             } catch (error) {
